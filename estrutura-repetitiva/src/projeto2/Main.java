@@ -1,18 +1,20 @@
+package projeto2;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
 
-        int soma =0;
+        int n = sc.nextInt();
 
-        while (x != 0) {
+        int soma = 0;
+        for (int i = 0; i < n; i++) {
+            int x = sc.nextInt();
             soma += x;
-            x = sc.nextInt();
         }
 
-        System.out.println("A soma dos valores é: " + soma);
+        System.out.println(soma);
         sc.close();
     }
 }
