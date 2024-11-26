@@ -1,6 +1,4 @@
-package projeto6.application;
-
-import org.w3c.dom.ls.LSOutput;
+package projeto2.application;
 
 import java.util.Locale;
 import java.util.Scanner;
